@@ -146,5 +146,5 @@ const Charts=(()=>{
     document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
   }
 
-  return{render,openModal,closeModal};
+  return{render,openModal,closeModal,buildConfig};
 })();
